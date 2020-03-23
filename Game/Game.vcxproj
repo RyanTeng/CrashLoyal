@@ -140,7 +140,7 @@ xcopy /y /d  "$(ProjectDir)\fonts\abelregular.ttf" "$(OutDir)"</Command>
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>include/sdl2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>include/sdl2;%(AdditionalIncludeDirectories);Entities;'External Dependencies'</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
